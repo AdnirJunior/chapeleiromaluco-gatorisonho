@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brincando com numeros</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./img/logo.png" alt="" srcset="">
+        <img id="chapeleiro" src="./img/chapeleiro.jpeg" alt="chapeleiro">
+    </header>
+    <main>
+        <div id="apresent"></div>
+        <div id="soun">
+            <div id="h2"><h2>Aniversário do Gato Que Ri</h2></div>
+            <p>Amanhã é o aniversario do Gato Que Ri e serão 15 convidados, mas eu só tenho 5 xícaras! Quantas xícaras preciso comprar? <br>
+                <input type="number" name="" class="resp" id="xicaras" placeholder="00"> xícaras. 
+                <input type="button" class="verificar" value="verificar" onclick="xicarasresp()"></p>
+            <p>O Coelho Branco ficou de comprar o presente que custou R$34,00, ele pagou com uma nota de R$50,00. Qual o valor do troco?<br> 
+                <input type="number" name="" class="resp" id="troco" placeholder="00"> Reais
+            <input type="button" class="verificar" value="verificar" onclick="trocoresp()"></p>
+            <p>O Gato Que Ri é três anos mais velho que o coelho branco, e o coelho é um ano mais novo que o passaro Dodo, sei que o passaro tem 13 anos, quantos anos o Gato tem?<br>
+                <input type="number" name="" class="resp" id="idade" placeholder="00"> anos.
+                <input type="button" value="verificar" class="verificar" onclick="idade()"></p>
+            <p>Se cada convidado comer dois brigadeiros, quantos brigadeiros eu tenho que fazer?<br>
+                <input type="number" name="" clas="resp" id="brigadeiros" placeholder="00"> brigadeiros
+                <input type="button" value="verificar" class="verificar" onclick="brigadeiros()"></p>
+            <p>Sei que demoro duas horas para fazer o bolo e os convidados chegarão às 16 horas. Que horas no máximo posso começar a fazer o bolo?<br>
+                <input type="number" class="resp" id="bolo" placeholder="00"> Horas.
+                <input type="button" value="verificar" class="verificar" onclick="bolo()" max="24">
+            </p>
+
+            
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>

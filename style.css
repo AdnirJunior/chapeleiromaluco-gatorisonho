@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    background-color: rgb(243, 203, 203);
+}
+
+header{
+    display: inline-block;
+    padding: 10px;
+    border-bottom: black 6px;
+    margin-bottom: 40px;
+}
+
+header #logo{
+    width: 60%;
+    margin-left: 10%;
+}
+
+header img#chapeleiro{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    margin-left: 10%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    justify-content: right;
+}
+main div#soun{
+    display: block;
+    justify-content: space-around;
+}
+main .soun{
+    padding: 3px;
+    margin: 30px;
+    text-align: center;
+    width: 5rem;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+main .soun:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+main #start{
+    margin: 30px;
+    margin-left: 20%;
+}
+
+main #start:hover{
+    cursor: pointer;
+}
+#h2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+    padding-right: 10px;
+}
+
+input{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 5px 9px 10px rgb(247, 36, 141);
+    color: darkblue;
+    
+}
+.verificar{
+    border-radius: 10px;
+    background-color: rgb(240, 105, 105);
+    padding: 10px;
+    color: #fff;
+    border-color: fuchsia;
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 20px;
+        
+    }
+    header #logo{
+        width: 35rem;
+        
+
+    }
+
+    header img#chapeleiro{
+        width: 100px;
+        height: 100px;
+    }
+
+    main #start{
+        margin-left: 40%;
+    }
+
+    input{
+        margin: 15px;
+        padding: 5px;
+        border-radius: 3px;
+        box-shadow: 5px 9px 10px rgb(128, 98, 238);
+        color: darkblue;
+    }
+    
+  }
