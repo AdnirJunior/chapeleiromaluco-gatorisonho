@@ -155,17 +155,35 @@ input{
         width: 100px;
         height: 100px;
     }
-
+    h2{
+        font-size: 3rem;
+        color: rgb(27, 27, 83);
+        margin-bottom: 20px;
+    }
     main #start{
         margin-left: 40%;
+    }
+    .verificar{
+        background-color: blue;
+        color: #fff;
+        box-shadow: 3px 3px 3px rgb(86, 86, 230);
+        border-color: darkcyan;
+    }
+
+    .verificar:hover{
+        background-color: #fff;
+        color: blue;
     }
 
     input{
         margin: 15px;
         padding: 5px;
-        border-radius: 3px;
+        border-radius: 5px;
         box-shadow: 5px 9px 10px rgb(128, 98, 238);
         color: darkblue;
     }
+
+    
+    
     
   }
